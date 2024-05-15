@@ -14,15 +14,15 @@ class HelloWorld
 		  Console.WriteLine ("---------- Calculadora ----------");
 		  Console.
 		  WriteLine
-		  (" 1 - AdiC'C#o\n 2 - SubtraC'C#o\n 3 - DivisC#o\n 4 - MultiplicaC'C#o\n 5 - Sair");
+		  (" 1 - Adição\n 2 - Subtração\n 3 - Divisão\n 4 - Multiplicação\n 5 - Sair");
 		  opcao = Convert.ToInt32 (Console.ReadLine ());
 
 		if (opcao != 5)
 		  {
-			Console.WriteLine ("Informe o primeiro nC:mero: ");
+			Console.WriteLine ("Informe o primeiro número: ");
 			primeiroNumero = Convert.ToInt32 (Console.ReadLine ());
 
-			Console.WriteLine ("Informe o segundo nC:mero: ");
+			Console.WriteLine ("Informe o segundo número: ");
 			segundoNumero = Convert.ToInt32 (Console.ReadLine ());
 
 			switch (opcao)
@@ -41,7 +41,7 @@ class HelloWorld
 				break;
 			  }
 
-			Console.WriteLine ($ "O total C) {total}");
+			Console.WriteLine ($"O total é: {total}");
 		  }
 
 	  }
